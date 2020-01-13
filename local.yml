@@ -5,3 +5,5 @@
   tasks:
   - name: Install htop
     apt: name=htop
+  - name: Install vlc
+    apt: name=vlc
