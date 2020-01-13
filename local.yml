@@ -1,6 +1,6 @@
 # Local.YML
 
-- hosts: localhost
+- hosts: local
   become: true
   tasks:
   - name: Install htop
