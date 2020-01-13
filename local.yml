@@ -10,3 +10,9 @@
   - name: Install WIDA Access Browser
     apt:
       deb: https://cdn-download-prod.drcedirect.com/all/download/securebrowser/linux/drc_insight_setup_10.2.0-23_amd64.deb
+
+  - name: Show new file
+    file:
+      path: /home/ncsadmin/Desktop
+      state: touch
+      
