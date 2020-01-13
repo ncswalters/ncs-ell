@@ -3,7 +3,10 @@
 - hosts: localhost
   become: true
   tasks:
+
   - name: Install htop
     apt: name=htop
-  - name: Install tweak tool
-    apt: name=unity-tweak-tool
+
+  - name: Install WIDA Access Browser
+    apt:
+      deb: https://cdn-download-prod.drcedirect.com/all/download/securebrowser/linux/drc_insight_setup_10.2.0-23_amd64.deb
