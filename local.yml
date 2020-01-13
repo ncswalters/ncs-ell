@@ -5,5 +5,5 @@
   tasks:
   - name: Install htop
     apt: name=htop
-  - name: Install vlc
-    apt: name=vlc
+  - name: Install tweak tool
+    apt: name=unity-tweak-tool
